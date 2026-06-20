@@ -2109,7 +2109,7 @@ h3 {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  filter: saturate(1.08) contrast(1.04);
+  filter: brightness(1.12) saturate(1.12) contrast(1.03);
   transition: transform 700ms ease;
 }
 
@@ -2120,8 +2120,8 @@ h3 {
   z-index: 1;
   pointer-events: none;
   background:
-    linear-gradient(90deg, rgba(2, 4, 11, 0.82), rgba(2, 4, 11, 0.22) 52%, rgba(2, 4, 11, 0.5)),
-    linear-gradient(0deg, rgba(2, 4, 11, 0.72), transparent 44%);
+    linear-gradient(90deg, rgba(2, 4, 11, 0.64), rgba(2, 4, 11, 0.12) 52%, rgba(2, 4, 11, 0.26)),
+    linear-gradient(0deg, rgba(2, 4, 11, 0.62), transparent 46%);
 }
 
 .first-flight-card:hover img {
@@ -3350,8 +3350,8 @@ h3 {
 
   .first-flight-card::after {
     background:
-      linear-gradient(180deg, rgba(2, 4, 11, 0.12), rgba(2, 4, 11, 0.58) 48%, rgba(2, 4, 11, 0.88)),
-      linear-gradient(90deg, rgba(2, 4, 11, 0.34), rgba(2, 4, 11, 0.08) 54%, rgba(2, 4, 11, 0.24));
+      linear-gradient(180deg, rgba(2, 4, 11, 0.04), rgba(2, 4, 11, 0.34) 52%, rgba(2, 4, 11, 0.78)),
+      linear-gradient(90deg, rgba(2, 4, 11, 0.2), rgba(2, 4, 11, 0.04) 56%, rgba(2, 4, 11, 0.14));
   }
 
   .first-flight-card div {
