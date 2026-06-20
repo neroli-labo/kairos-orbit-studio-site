@@ -3086,7 +3086,15 @@ h3 {
   }
 
   .hero-image img {
-    object-position: 66% center;
+    object-position: 74% center;
+    filter: brightness(1.14) saturate(1.08) contrast(1.04);
+  }
+
+  .hero-image::after {
+    background:
+      radial-gradient(circle at 76% 30%, rgba(73, 216, 255, 0.08), transparent 34%),
+      linear-gradient(90deg, rgba(2, 4, 11, 0.56) 0%, rgba(2, 4, 11, 0.2) 46%, rgba(2, 4, 11, 0.04) 100%),
+      linear-gradient(180deg, rgba(2, 4, 11, 0.16) 0%, rgba(2, 4, 11, 0.08) 34%, rgba(2, 4, 11, 0.86) 100%);
   }
 
   .hero-content {
@@ -3097,6 +3105,10 @@ h3 {
 
   .hero-rotation {
     min-height: 460px;
+  }
+
+  .hero-state {
+    text-shadow: 0 4px 24px rgba(2, 4, 11, 0.86);
   }
 
   h1 {
