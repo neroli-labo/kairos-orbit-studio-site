@@ -2434,7 +2434,7 @@ h3 {
   display: grid;
   place-items: center;
   background:
-    linear-gradient(180deg, rgba(2, 4, 11, 0.58), rgba(2, 4, 11, 0.92)),
+    linear-gradient(180deg, rgba(2, 4, 11, 0.46), rgba(2, 4, 11, 0.84)),
     url("public/assets/kairos-cosmic-hero.png") center / cover;
 }
 
@@ -2464,8 +2464,11 @@ h3 {
   position: absolute;
   inset: 24px;
   z-index: -1;
-  border: 1px solid rgba(141, 234, 255, 0.24);
+  border: 1px solid rgba(141, 234, 255, 0.36);
   border-radius: 50%;
+  box-shadow:
+    0 0 34px rgba(73, 216, 255, 0.14),
+    inset 0 0 28px rgba(216, 255, 114, 0.08);
   transform: rotate(-10deg) scaleX(1.45);
   animation: orbitSpin 30s linear infinite;
 }
